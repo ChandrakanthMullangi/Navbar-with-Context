@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+.about-container {
+  height: 100vh;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.about-image {
+  height: 150px;
+  width: auto;
+}
+
+.about-heading {
+  font-family: Roboto;
+  font-size: 36px;
+}
+
+.dark-background-theme {
+  background-color: #000000;
+}
+
+.light-background-theme {
+  background-color: #ffffff;
+}
+
+.dark-text-theme {
+  color: #000000;
+}
+
+.light-text-theme {
+  color: #ffffff;
+}

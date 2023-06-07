@@ -1,0 +1,59 @@
+/* Write your CSS here */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.navitems {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.nav-link {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.website-logo {
+  height: 50px;
+  width: auto;
+}
+
+.toggle-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.toggle-icon {
+  height: 35px;
+  width: auto;
+  cursor: pointer;
+}
+
+.dark-navbar-background-theme {
+  background-color: #333333;
+}
+
+.light-navbar-background-theme {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.dark-text-theme {
+  color: #000000;
+}
+
+.light-text-theme {
+  color: #ffffff;
+}

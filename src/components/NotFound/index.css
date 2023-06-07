@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.not-found-container {
+  height: 100vh;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.not-found-image {
+  height: 300px;
+  width: auto;
+}
+
+.not-found-heading {
+  font-family: Roboto;
+  font-size: 36px;
+}
+
+.not-found-message {
+  color: #64748b;
+}
+
+.dark-background-theme {
+  background-color: #000000;
+}
+
+.light-background-theme {
+  background-color: #ffffff;
+}
+
+.dark-text-theme {
+  color: #000000;
+}
+
+.light-text-theme {
+  color: #ffffff;
+}
